@@ -1,0 +1,77 @@
+nav ul li{
+display: inline-block;
+margin-right: 1em;
+background: #efefef;
+padding: 1em;
+border-radius: 4px;
+transition: all 0.25s;
+cursor: pointer;
+color: #999;
+border: 1px solid #fff;
+}
+nav ul li:hover{
+	background: #dedede;
+}
+nav ul li.active{
+	color: #333;
+	background: #fff;
+	border-bottom: 3px solid $red;
+	border-radius: 0;
+}
+
+.hidden{
+	opacity: 0;
+}
+
+select{
+	margin-right: 10px;
+	border: 1px solid #ddd;
+   color: #333;
+   background: #f5f5f5;
+   font-size: 20px;
+   font-family: 'Pratt-Light';
+   font-weight: normal;
+   padding: 10px 10px;
+   height: 40px;
+   width: 300px;
+}
+input{
+	margin-right: 10px;
+	border: 1px solid #ddd;
+   color: #333;
+   background: #f5f5f5;
+   font-size: 20px;
+   font-family: 'Pratt-Light';
+   font-weight: normal;
+   padding: 10px 10px;
+   box-sizing:border-box;
+   height: 40px;
+   width: 300px;
+}
+
+#pg-nav-bar{
+	position: relative;
+	top: 0;
+	left:0;
+	right: 0;
+	padding-left: 20px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	z-index: 1000;
+}
+
+#pg-nav-bar nav{
+	display: inline-block;
+}
+
+#prov_mobile,#prov_tablet,#prov_desktop,#leaders_chart{
+	display: none;
+}
+
+.btn{
+	transition: all 0.5s;
+	text-decoration: none;
+	cursor: pointer;
+	color: #666;
+	font-family: 'PrattHeavy';
+}
