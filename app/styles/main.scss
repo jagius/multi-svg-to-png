@@ -1,25 +1,13 @@
 // @import "fonts";
 @import "colors";
-@import "custom";
-@import "nav";
+
 body{
 	padding: 0;
 	margin: 0;
-}
-// @import "debug";
-.background {
-  fill: none;
-  pointer-events: all;
+	font-family: 'Helvetica';
+	background: #fff;
 }
 
-.map_label{
-	font-size: 60px;
-	font-family: "prattHeavy";
-}
-
-.pg-content{
-	margin-top: 140px;
-}
 #container,#content_wrapper,#svgdataurl,#pngdataurl,#theCanvas{
 	position: relative;
 	width: 100%;
@@ -37,29 +25,21 @@ body{
 }
 
 .btn:hover{
-  border:solid #ddd 1px;
+  border:solid $grey4 1px;
 }
 
 #svg{
 	margin: 0 auto;
 	padding: 0;
-	border:5px solid #ddd;
+	border:none;
+}
+
+div.target_child{
+	background: #333!important;
+	width: 400px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px!important;
 }
 
 
-
-// .feature {
-//   fill: #ddd;
-//   cursor: pointer;
-// }
-
-// .feature.active {
-//   fill: #999;
-// }
-
-// .mesh {
-//   fill: none;
-//   stroke: #fff;
-//   stroke-linecap: round;
-//   stroke-linejoin: round;
-// }
